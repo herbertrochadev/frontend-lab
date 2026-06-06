@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Quiz para programadores">
+    <title>Quiz do Programador</title>
+</head>
+<body>
+    <header>
+        <h1>Quiz do Programador</h1>
+        <p>Teste seus conhecimentos em programação e veja qual pontuação você consegue fazer!</p>
+    </header>
+    <main>
+        <!--Primeira seção de introdução-->
+        <section>
+            <h2>Sobre esse Quiz</h1>
+            <p>Teste seus conhecimentos em programação com um quiz interativo criado para desafiar suas habilidades em temas como lógica de programação, <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr>, JavaScript e conceitos fundamentais da tecnologia. Responda às perguntas, acumule pontos e descubra o quanto você domina o universo do desenvolvimento de software.</p>
+            <p>Ao final do desafio, você receberá uma pontuação que indicará seu <strong>nível de conhecimento</strong>, desde iniciante até avançado. O quiz é uma forma divertida de aprender, revisar conteúdos e identificar áreas que podem ser aprimoradas em sua jornada como programador.</p>
+        </section>
+        <!--Pergunta 1 - Multipla escolha-->
+        <section>
+            <h2>Pergunta 1: O que significa a sigla HTML?</h2>
+            <form>
+                <input
+                type="radio"
+                value="Hyper Transfer Markup Language" name="pergunta1"
+                id="p1a">
+                <label for="p1a">Hyper Transfer Markup Language</label> <br>
+
+                <input
+                type="radio"
+                value="Hyper Text Markup Language" name="pergunta1"
+                id="p1b">
+                <label for="p1b">Hyper Text Markup Language</label> <br>
+
+                <input
+                type="radio"
+                value="High Text Machine Language" name="pergunta1"
+                id="p1c">
+                <label for="p1c">High Text Machine Language</label> <br>
+
+                <input
+                type="radio"
+                value="Hyper Tool Markup Language" name="pergunta1"
+                id="p1d">
+                <label for="p1d">Hyper Tool Markup Language</label>
+            </form>
+        </section>
+        <!--Pergunta 2 - Texto-->
+        <section>
+            <h2>Pergunta 2: Qual linguagem é utilizada para estilizar páginas web, definindo cores, fontes, espaçamentos e layouts?</h2>
+            <form >
+
+            <input type="text" placeholder="Digite sua resposta..." name="pergunta2" id="p2" required>
+            
+            </form>
+        </section>
+        <!--Pergunta 3 - Senha-->
+        <section>
+            <h2>Pergunta 3: Qual atributo do HTML é utilizado para ocultar os caracteres digitados em um campo de senha?</h2>
+            <input type="password" name="pergunta3" id="p3" placeholder="Digite sua resposta...">
+        </section>
+        <!--Pergunta 4 - data-->
+        <section>
+            <form>
+                <h2>Pergunta 4: Em que ano aconteceu o lançamento da primeira versão de JavaScript?</h2>
+                <input type="date" name="pergunta4" id="p4">
+            </form>
+        </section>
+        <!--Pergunta 5 - Seleção Múltipla-->
+        <section>
+            <h2>Pergunta 5: Quais das linguagens abaixo são comumente utilizadas no desenvolvimento web? (Selecione todas as alternativas corretas.)</h2>
+
+            <input
+            type="checkbox"
+            name="pergunta5"
+            id="p5a"
+            value="HTML">
+            <label for="p5a">HTML</label> <br>
+
+            <input
+            type="checkbox"
+            name="pergunta5"
+            id="p5b"
+            value="CSS">
+            <label for="p5b">CSS</label> <br>
+
+            <input
+            type="checkbox"
+            name="pergunta5"
+            id="p5c"
+            value="JavaScript">
+            <label for="p5c">JavaScript</label> <br>
+
+            <input
+            type="checkbox"
+            name="pergunta5"
+            id="p5d"
+            value="Photoshop">
+            <label for="p5d">Photoshop</label> 
+        </section>
+        <!--Pergunta 6 - Upload de Arquivo-->
+        <section>
+            <h2>Pergunta 6 - Faça o upload de uma imagem contendo um trecho de código que você já escreveu. </h2>
+            <input type="file" name="pergunta6" id="p6">
+        </section>
+        <!--Pergunta 7 - Menu Suspenso-->
+        <section>
+            <h2>Pergunta 7 - Qual área do desenvolvimento você mais gostaria de seguir?</h2>
+            <select name="pergunta7" id="p7">
+                <option value="Front-end">Front-end</option>
+                <option value="Back-end">Back-end</option>
+                <option value="Full Stack">Full Stack</option>
+                <option value="Mobile">Mobile</option>
+            </select>
+
+        </section>
+        <!--Pergunta 8 - Imagem-->
+        <section>
+            <h2>Pergunta 8 - Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+            
+            <figure>
+                
+                <img
+                src="src/images.png" alt="Logotipo de uma linguagem de programação"> <br>
+
+                <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
+            </figure>
+
+            <input
+            type="text"
+            name="pergunta8"
+            id="p8"
+            placeholder="Digite sua resposta...">
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

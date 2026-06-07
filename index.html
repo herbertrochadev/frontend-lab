@@ -133,7 +133,84 @@
             id="p8"
             placeholder="Digite sua resposta...">
         </section>
+        <!--Tabela de Pontuação-->
+        <section>
+            <h2>Tabela de Pontuação</h2>
+            <table border="1">
+                <thead> <!--Cabeçalho da tabela-->
+                    <tr>
+                        <th>Pontuação</th>
+                        <th>Avaliação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>0-2</td>
+                        <td>Não desista! Cada tentativa é uma oportunidade de você aprender</td>
+                    </tr>
+
+                    <tr>
+                        <td>3-4</td>
+                        <td>Você ainda precisa melhora! Que tal estudar mais sobre programação</td>
+                    </tr>
+
+                    <tr>
+                        <td>5-7</td>
+                        <td>Bom! Seu conhecimento em programação está satisfatório</td>
+                    </tr>
+
+                    <tr>
+                        <td>8</td>
+                        <td>Perfeito! Você está muito bem informado sobre programação</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Boa sorte na próxima!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <!--Lista de Respostas-->
+        <section>
+            <h2>Verifique suas respostas</h2>
+            <details>
+                <summary>Clique aqui para ver as respostas do quiz</summary>
+                <ol>
+                    <li>Hyper Text Markup Language</li>
+                    <li>CSS</li>
+                    <li>Password</li>
+                    <li>1995</li>
+                    <li>HTML, CSS e JavaScript</li>
+                    <li>Todas corretas</li>
+                    <li>Java</li>
+                </ol>
+            </details>
+        </section>
+        <!--Formulário de Feedback-->
+        <section>
+            <h2>Nos dê o seu Feedback</h2>
+            <form>
+                <fieldset>
+                    <legend>Informações de Contato</legend>
+
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="iname" > <br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="iemail"> <br>
+
+                    <label for="commentes">Comentários:</label> <br>
+                    <textarea name="commentes" id="icommentes" rows="4" cols="50" placeholder="Digite aqui..."></textarea> <br>
+
+                    <button onclick="alert('FEEDBACK ENVIADO')">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; Quiz de programadores. Todos os direitos reservados</p>
+        <p>Para conhecer mais sobre mim <a target="_blank" href="/Meu Site/sobremim.html">clique aqui</a></p>
+    </footer>
 </body>
 </html>
